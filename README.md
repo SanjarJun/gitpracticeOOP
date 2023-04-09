@@ -1,2 +1,2 @@
 # gitpracticeOOP
-# Arslan, Sanjar, Slava.
+Arslan, Sanjar, Slava.
