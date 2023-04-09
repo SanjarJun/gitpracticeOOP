@@ -1,27 +1,32 @@
 package com.gitpractice;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
 @Entity
 public class chikago {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String name;
 
+    // getters and setters
+    // ...
+
+
+
     private int age;
 
     // Constructors, getters, and setters
 
-    public Chika() {
+    public chikago() {
     }
 
-    public Chika(String name, int age) {
+    public chikago(String name, int age) {
         this.name = name;
         this.age = age;
     }
