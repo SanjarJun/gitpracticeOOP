@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GitpracticeApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(GitpracticeApplication.class, args);
+		System.out.println("blabla");
 	}
 
 }
